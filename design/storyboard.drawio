@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="1164" dy="239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1409" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,8 +13,8 @@
                 <mxCell id="9" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;select a day&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="7" vertex="1">
                     <mxGeometry x="-14" y="200" width="170" height="31" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="&lt;font color=&quot;#000000&quot;&gt;The standard entry price is $20&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="7" vertex="1">
-                    <mxGeometry x="-140" y="90" width="610" height="30" as="geometry"/>
+                <mxCell id="10" value="&lt;font color=&quot;#000000&quot;&gt;Check for discount&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="7" vertex="1">
+                    <mxGeometry x="-185" y="90" width="610" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="Check discount status" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="7" vertex="1">
                     <mxGeometry x="120" y="328" width="120" height="30" as="geometry"/>
