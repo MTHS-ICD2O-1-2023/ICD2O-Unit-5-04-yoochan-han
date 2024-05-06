@@ -1,9 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="The information program, in JS" />
+  <meta name="author" content="Yoochan Han" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
+  <title>ICD2O Museum</title>
+</head>
+<body>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="./js/script.js"></script>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">ICD2O Museum</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <form action="#" class="text-box">
+        <h4>The standard entry price is $20</h4>
+        <p>On Tuesdays and Thursdays, students aged 13 to 20 are included in the student discount list</p>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" pattern="-?[1-0]*(\.[1-0]+)?" id="get_UserAnswer">
+          <label class="mdl-textfield__label" for="get_UserAnswer">your age</label>
+          <span class="mdl-textfield__error">Enter number please</span>
+        </div>
+        <p>select a day</p>
+        <div>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+            <input type="radio" id="option-1" class="mdl-radio__button" name="options-day" value="1">
+            <span class="mdl-radio__label">Mon</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+            <input type="radio" id="option-2" class="mdl-radio__button" name="options-day" value="2">
+            <span class="mdl-radio__label">Tue</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+            <input type="radio" id="option-3" class="mdl-radio__button" name="options-day" value="3">
+            <span class="mdl-radio__label">Wen</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-4">
+            <input type="radio" id="option-4" class="mdl-radio__button" name="options-day" value="4">
+            <span class="mdl-radio__label">Thu</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-5">
+            <input type="radio" id="option-5" class="mdl-radio__button" name="options-day" value="5">
+            <span class="mdl-radio__label">Fri</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-6">
+            <input type="radio" id="option-6" class="mdl-radio__button" name="options-day" value="6">
+            <span class="mdl-radio__label">Sat</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-7">
+            <input type="radio" id="option-7" class="mdl-radio__button" name="options-day" value="7">
+            <span class="mdl-radio__label">Sun</span>
+          </label>
+        </div>
+        <div>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-discount1">
+            <input type="radio" id="option-discount1" class="mdl-radio__button" name="options-discount" value="1">
+            <span class="mdl-radio__label">Yes</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-discount2">
+            <input type="radio" id="option-discount2" class="mdl-radio__button" name="options-discount" value="2">
+            <span class="mdl-radio__label">No</span>
+          </label>
+        </div>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="ShowAnswer()">
+          Check discount status
+        </button>
+      </form>
+      <div>
+        <br />
+        <h4 id="TheAnswer"></h4>
+      </div>
+  </div>
+  </main>
+  </div>
+</body>
 </html>
