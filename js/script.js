@@ -9,7 +9,7 @@ function ShowAnswer() {
   const Thursday = document.getElementById("option-4").checked
   const discount = document.getElementById("option-discount1").checked
   //get user's answer
-  if ((userage > 12 && userage < 21) || (Tuesday == 1 || Thursday == 1) || (discount == 1)) {
+  if ((userage > 12 && userage < 21) || (Tuesday == 1 || Thursday == 1) && (discount == 1)) {
     document.getElementById("TheAnswer").innerHTML = "You can get a discount today!"
   }else {
     document.getElementById("TheAnswer").innerHTML = "There is no ticket discount today or you are not eligible."
